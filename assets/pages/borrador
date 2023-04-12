@@ -1,0 +1,22 @@
+ <header class="titulo"> STARDEW VALLEY </header>
+  <header class="subtitulo">Guía Personal</header>
+
+  css
+  .titulo {
+    text-align: center;
+    color: #DFD228;
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'Delicious Handrawn', cursive;
+    -webkit-text-stroke: 0.1px black;
+    
+}
+
+.subtitulo {
+    text-align: center;
+    color: #DFD228;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Delicious Handrawn', cursive;
+    -webkit-text-stroke: 0.1px black;
+}

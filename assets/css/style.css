@@ -1,0 +1,85 @@
+header {
+    text-align: center
+}
+
+body {
+   
+   
+    background-image:url(../media/fondito2.jpg);
+    background-repeat: repeat;
+    margin: 20px 0 0 0;
+}
+.selec {
+    color: #DFD228;
+    
+    font-family: 'Delicious Handrawn', cursive;
+    -webkit-text-stroke: 0.1px black;
+}
+
+div{
+    margin: 40px;
+    text-align: center;
+
+}
+
+form {
+    margin: 20px 0 0 0;
+    margin-top: 10px;
+    text-align: center;
+    
+}
+select {
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+option {
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+nav {
+    border: 0 0 20px 0;
+    font-family: 'Delicious Handrawn', cursive;
+    display: inline;
+   border-style: dashed;
+   border-color: #FFC93C;
+   border-radius: 10px;
+   background-color: rgba(255, 201, 60, 60%);
+   
+}
+
+nav:hover {
+    cursor:pointer;
+    border-style: solid;
+    border-color:#FFC93C ;
+    
+    
+}
+footer {
+    background-color: aqua;   
+}
+input {
+    display: block;
+    background-color: chartreuse;
+    
+}
+p {
+    font-family: 'elicious Handrawn', cursive;
+}
+
+#comenzar {
+    
+    text-align: center;
+    font-family: 'elicious Handraw', cursive;
+    border-style: dashed;
+   border-color: #FFC93C;
+   border-radius: 10px;
+   background-color: rgba(255, 201, 60, 60%);
+}
+
+#comenzar:hover {
+    cursor:pointer;
+    border-style: solid;
+    border-color:#FFC93C ;
+}
+
+
