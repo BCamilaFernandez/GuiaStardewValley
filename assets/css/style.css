@@ -3,8 +3,6 @@ header {
 }
 
 body {
-   
-   
     background-image:url(../media/fondito2.jpg);
     background-repeat: repeat;
     margin: 20px 0 0 0;
@@ -16,10 +14,9 @@ body {
     -webkit-text-stroke: 0.1px black;
 }
 
-div{
-    margin: 40px;
-    text-align: center;
-
+#image {
+    box-sizing: content-box;
+    width: 100%;
 }
 
 form {
@@ -37,6 +34,11 @@ option {
 }
 
 nav {
+    text-align: center;
+}
+
+
+li {
     border: 0 0 20px 0;
     font-family: 'Delicious Handrawn', cursive;
     display: inline;
@@ -47,7 +49,7 @@ nav {
    
 }
 
-nav:hover {
+li:hover {
     cursor:pointer;
     border-style: solid;
     border-color:#FFC93C ;
