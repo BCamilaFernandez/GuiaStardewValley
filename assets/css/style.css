@@ -1,5 +1,6 @@
 header {
     text-align: center
+
 }
 
 body {
@@ -9,15 +10,19 @@ body {
 }
 .selec {
     color: #DFD228;
-    
     font-family: 'Delicious Handrawn', cursive;
     -webkit-text-stroke: 0.1px black;
 }
 
-#image {
-    box-sizing: content-box;
-    width: 100%;
+#imagen {
+    width: 70vw;
 }
+
+@media only screen and (min-width: 410px) {
+    #imagen {width: 300px;}
+} 
+
+
 
 form {
     margin: 20px 0 0 0;
@@ -34,6 +39,7 @@ option {
 }
 
 nav {
+    margin: 1vh;
     text-align: center;
 }
 
@@ -61,27 +67,27 @@ footer {
 }
 input {
     display: block;
-    background-color: chartreuse;
-    
+    background-color: chartreuse; 
 }
+
 p {
     font-family: 'elicious Handrawn', cursive;
 }
 
-#comenzar {
-    
-    text-align: center;
-    font-family: 'elicious Handraw', cursive;
-    border-style: dashed;
+/* #comenzar {
+   
+   text-align: center;
+   font-family: 'elicious Handraw', cursive;
+   border-style: dashed;
    border-color: #FFC93C;
    border-radius: 10px;
    background-color: rgba(255, 201, 60, 60%);
-}
+} */
 
-#comenzar:hover {
+/* #comenzar:hover {
     cursor:pointer;
     border-style: solid;
     border-color:#FFC93C ;
-}
+} */
 
 
